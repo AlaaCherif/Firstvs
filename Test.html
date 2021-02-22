@@ -1,0 +1,175 @@
+<body>
+  <style>
+    
+    div.fixed {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+    
+    
+    body {
+      background-image: url(kitchen-ideas-calderone-kitchen-006-1583960334.jpg)
+       ;
+       
+       background-attachment: scroll;
+       background-size: cover;
+     
+    }
+   
+    h2{font-size: 20px;
+    color:black;
+    padding: 20px;
+    background-color: wheat;
+    text-align:left;
+    font:italic;}
+    #p1{color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    ;
+    font-size: 16px;} 
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top:0;
+  width: 100%;
+  right:0;
+  position:sticky;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active 
+{
+  background-color: violet;
+}
+.ra
+{
+  float:right;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.gallery{
+  margin: 5px;
+  border: 1px black solid;
+  float:left;
+  width: 300px;
+}
+div.gallery:hover{
+  border: 2px black solid ;
+
+}
+div.gallery img{
+  width: 100%
+  ;
+  height: auto;
+}
+div.desc{
+  text-align: center;
+  padding: 15px;
+}
+
+</style>
+<head>
+  <title>Recettes Cuisine</title>
+</head>
+  <header>
+  <h1>Recettes cuisine</h1>
+  <h2><strong>Cuisine Tunisienne</strong></h2>
+  
+  </header>
+  <nav>
+  <ul>
+    <li><a class="active" href="Test.html">Home</a></li>
+  <li><a target ="_blank" id="a1" href="Gato.html" >Gâteaux</a></li>
+  <li><a id="a1" href="#" > Pattes</a></li>
+  <li><a id="a1" href="#"> Salades</a> </li>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" >About</a>
+    <div class="dropdown-content">
+      <a href="#">Link1</a>
+      <a href="#">Link 2</a>
+    </div>
+  
+  </ul>
+  </nav>
+  <section>
+  <aside>
+    <br>
+  <h1>À propos de l'auteur</h1>
+  <p style="font-size: large; "><strong>C'est moi, Foulen ! Je suis né un 14 Janvier
+  1994.</strong></p>
+  </aside>
+  
+  <article>
+  <h1>Je suis un grand Chef de cuisine</h1>
+  <p id="p1">texte de l'article texte de l'article
+  </p>
+  </article>
+  </section>
+  <footer>
+  <p>Copyright Foulen - Tous droits
+  réservés<br />
+  <a href="#">Me contacter !</a>
+  </p>
+  
+  <div class="fixed">
+    This div element has position: fixed;
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="https://www.virtualbox.org/wiki/Downloads"><img class="galleryimage" src="kitchen-ideas-calderone-kitchen-006-1583960334.jpg" alt="chicken"></a>
+      <div class="desc"> chicken wings</div>
+    </div>
+  
+  </footer>
+  </body>
+  </html>
